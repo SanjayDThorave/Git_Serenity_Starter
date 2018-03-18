@@ -1,0 +1,169 @@
+!SESSION 2018-03-17 17:56:14.740 -----------------------------------------------
+eclipse.buildId=3.9.2.201712210947-RELEASE-e47
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.ui 2 0 2018-03-17 17:56:32.389
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-03-17 17:56:32.405
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.lsp4e', id='org.eclipse.lsp4e.togglehighlight'
+
+!ENTRY org.eclipse.jface 2 0 2018-03-17 17:56:35.338
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-03-17 17:56:35.338
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12f910b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1451970,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2018-03-17 17:56:38.583
+!MESSAGE org.eclipse.jdt.junit.ResultView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2018-03-17 17:56:38.583
+!MESSAGE org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2018-03-17 17:56:38.583
+!MESSAGE org.eclipse.contribution.xref.ui.views.XReferenceView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-17 17:56:40.034
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-17 17:56:40.034
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-17 17:56:42.619
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sthorave'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:57:53.285
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-java/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-java/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:57:53.285
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-java/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-java/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:57:56.108
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:57:56.108
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:00.042
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-api/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-api/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:00.042
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-api/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-api/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:00.057
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:00.073
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:07.349
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-java/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-java/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:07.599
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:07.926
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-api/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-api/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:07.926
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:23.369
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-java/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-java/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:23.603
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:23.930
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-api/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-api/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 17:58:23.930
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:40.570
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-java/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-java/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:42.418
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:44.076
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-java/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-java/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:44.376
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:44.590
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-api/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-api/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:44.609
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:44.755
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-api/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-api/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:44.760
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:55.472
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-java/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-java/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:55.802
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:56.249
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-api/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-api/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 19:15:56.255
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-17 19:21:02.623
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-17 19:21:02.625
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 20:00:21.603
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-java/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-java/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 20:00:21.843
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 20:00:22.231
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-api/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-api/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 20:00:22.235
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 20:00:24.939
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-java/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-java/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 20:00:25.105
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 20:00:25.327
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-api/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-api/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-03-17 20:00:25.330
+!MESSAGE Failure to transfer org.seleniumhq.selenium:selenium-support/maven-metadata.xml from http://localhost:8081/nexus/content/repositories/vetallurrepo/ was cached in the local repository, resolution will not be reattempted until the update interval of vetallurrepo has elapsed or updates are forced. Original error: Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to vetallurrepo (http://localhost:8081/nexus/content/repositories/vetallurrepo/): Failed to connect to localhost/0:0:0:0:0:0:0:1:8081

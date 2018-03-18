@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="cucumber-serenity-starter" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="net.serenitybdd.starter.starter.CucumberTestSuite" time="21.331">
+    <testsuite name="Feature: Create a Customer" time="21.331">
+      <testcase name="Create a Customer in Guru99" classname="Create a Customer" time="21.331">
+        <error>net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'STATEFARM85', ip: '192.168.0.106', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown&#13;
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:173)&#13;
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:125)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)&#13;
+	at net.serenitybdd.starter.pages.LoginPage.enterUserID(LoginPage.java:39)&#13;
+	at net.serenitybdd.starter.stepdefinitions.CreateCustomerSteps.i_am_in_Add_New_Customer_Page(CreateCustomerSteps.java:41)&#13;
+	at net.serenitybdd.starter.stepdefinitions.CreateCustomerSteps$$EnhancerByCGLIB$$e899606a.CGLIB$i_am_in_Add_New_Customer_Page$0(&lt;generated&gt;)&#13;
+	at net.serenitybdd.starter.stepdefinitions.CreateCustomerSteps$$EnhancerByCGLIB$$e899606a$$FastClassByCGLIB$$915316ec.invoke(&lt;generated&gt;)&#13;
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)&#13;
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:450)&#13;
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:435)&#13;
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:410)&#13;
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:151)&#13;
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:138)&#13;
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)&#13;
+	at net.serenitybdd.starter.stepdefinitions.CreateCustomerSteps$$EnhancerByCGLIB$$e899606a.i_am_in_Add_New_Customer_Page(&lt;generated&gt;)&#13;
+	at net.serenitybdd.starter.starter.gluecode.CreateCustomerStepDefinitions.i_am_in_Add_New_Customer_Page(CreateCustomerStepDefinitions.java:21)&#13;
+	at ✽.I am in Add New Customer Page(src/test/resources/features/create_customer.feature:4)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

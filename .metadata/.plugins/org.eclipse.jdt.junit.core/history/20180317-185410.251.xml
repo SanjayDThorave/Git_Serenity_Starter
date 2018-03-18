@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="cucumber-serenity-starter" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="net.serenitybdd.starter.starter.CucumberTestSuite" time="15.551">
+    <testsuite name="Feature: Create a Customer" time="15.551">
+      <testcase name="Create a Customer in Guru99" classname="Create a Customer" time="15.551">
+        <error>java.lang.NullPointerException: key can't be null&#13;
+	at java.lang.System.checkKey(System.java:838)&#13;
+	at java.lang.System.getProperty(System.java:714)&#13;
+	at net.serenitybdd.starter.pages.LoginPage.enterUserID(LoginPage.java:37)&#13;
+	at net.serenitybdd.starter.stepdefinitions.CreateCustomerSteps.i_am_in_Add_New_Customer_Page(CreateCustomerSteps.java:41)&#13;
+	at net.serenitybdd.starter.stepdefinitions.CreateCustomerSteps$$EnhancerByCGLIB$$e899606a.CGLIB$i_am_in_Add_New_Customer_Page$1(&lt;generated&gt;)&#13;
+	at net.serenitybdd.starter.stepdefinitions.CreateCustomerSteps$$EnhancerByCGLIB$$e899606a$$FastClassByCGLIB$$915316ec.invoke(&lt;generated&gt;)&#13;
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)&#13;
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:450)&#13;
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:435)&#13;
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:410)&#13;
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:151)&#13;
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:138)&#13;
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)&#13;
+	at net.serenitybdd.starter.stepdefinitions.CreateCustomerSteps$$EnhancerByCGLIB$$e899606a.i_am_in_Add_New_Customer_Page(&lt;generated&gt;)&#13;
+	at net.serenitybdd.starter.starter.gluecode.CreateCustomerStepDefinitions.i_am_in_Add_New_Customer_Page(CreateCustomerStepDefinitions.java:21)&#13;
+	at ✽.I am in Add New Customer Page(src/test/resources/features/create_customer.feature:4)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
